@@ -1,5 +1,5 @@
 const asyncHandler = require("express-async-handler");
-
+const Goal = require("../models/goalModel.js");
 // @desc    Get goals
 // @route   GET /api/goal
 // @access  Private
